@@ -1,0 +1,7 @@
+{
+  "name": "FOR MAX",
+  "description": "Train smarter. Track everything. Become stronger. Deterministic progression, workout logging, exercise education, and body tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

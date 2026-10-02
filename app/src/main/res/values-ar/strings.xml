@@ -1,0 +1,268 @@
+<resources>
+    <string name="app_name">FOR MAX</string>
+    <string name="app_tagline">تدرّب بذكاء. تتبّع كل شيء. أصبح أقوى.</string>
+
+    <!-- Navigation Tabs -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_workout">التمرين</string>
+    <string name="nav_progress">التقدم</string>
+    <string name="nav_exercises">التمارين</string>
+    <string name="nav_profile">حسابي</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_hero_title">FOR MAX</string>
+    <string name="onboarding_hero_subtitle">اصنع أفضل نسخة من جسدك.</string>
+    <string name="onboarding_btn_get_started">ابدأ الآن</string>
+    <string name="onboarding_hero_feature1">زيادة تدريجية قطعية مبنية على أدائك الفعلي</string>
+    <string name="onboarding_hero_feature2">شرح تكنيك بالفيديو، الحركة المتحركة والصور</string>
+    <string name="onboarding_hero_feature3">قاعدة بيانات محلية تعمل بالكامل دون إنترنت</string>
+    <string name="onboarding_step1_badge">فور ماكس: البيانات الأساسية</string>
+    <string name="onboarding_step1_title">ملف الرياضي</string>
+    <string name="onboarding_step1_progress">الخطوة 1 من 2</string>
+    <string name="onboarding_biometrics_section">البيانات الجسمانية</string>
+    <string name="onboarding_name_label">الاسم أو اللقب</string>
+    <string name="onboarding_age_label">العمر</string>
+    <string name="onboarding_height_label">الطول (سم)</string>
+    <string name="onboarding_weight_label">الوزن (كجم)</string>
+    <string name="onboarding_sex_label">الجنس</string>
+    <string name="onboarding_sex_male">ذكر</string>
+    <string name="onboarding_sex_female">أنثى</string>
+    <string name="onboarding_sex_other">آخر</string>
+    <string name="onboarding_experience_label">مستوى الخبرة في التدريب</string>
+    <string name="onboarding_experience_beginner">مبتدئ</string>
+    <string name="onboarding_experience_intermediate">متوسط</string>
+    <string name="onboarding_experience_advanced">متقدم</string>
+    <string name="onboarding_goal_label">الهدف الأساسي</string>
+    <string name="onboarding_equipment_label">المعدات المتاحة للتدريب</string>
+    <string name="onboarding_days_label">أيام التدريب في الأسبوع</string>
+    <string name="onboarding_days_unit">أيام / أسبوع</string>
+    <string name="onboarding_btn_generate">اقتراح النظام التدريبي المناسب →</string>
+    <string name="onboarding_step2_badge">الخطوة 2: ترشيح النظام التدريبي</string>
+    <string name="onboarding_step2_title">النظام التدريبي المقترح لك</string>
+    <string name="onboarding_recommended_banner">مقترح لك خصيصاً</string>
+    <string name="onboarding_volume_baseline">الأساس التوجيهي للتضخيم: حوالي 10-12 جولة فعلية لكل عضلة رئيسية أسبوعياً.</string>
+    <string name="onboarding_all_systems_title">الأنظمة التدريبية المتاحة</string>
+    <string name="onboarding_btn_finish">ابدأ التدريب بهذا النظام</string>
+
+    <!-- Home / Dashboard -->
+    <string name="greeting_morning">صباح الخير</string>
+    <string name="greeting_afternoon">مساء الخير</string>
+    <string name="greeting_evening">مساء الخير</string>
+    <string name="home_goal_label">الهدف: %s</string>
+    <string name="home_active_session_badge">جلسة تمرين جارية الآن</string>
+    <string name="home_active_sets_logged">تم تسجيل %d جولات</string>
+    <string name="home_resume_workout_btn">استئناف التمرين</string>
+    <string name="home_today_scheduled">تمرين اليوم المجدول</string>
+    <string name="home_exercises_count">%d تمارين</string>
+    <string name="home_start_workout_btn">ابدأ التمرين</string>
+    <string name="home_rest_day_title">يوم راحة مجدول</string>
+    <string name="home_rest_day_desc">يوم راحة مجدول. احرص على شرب الماء، تمارين الإطالة، والنوم الكافي لدعم الاستشفاء.</string>
+    <string name="home_current_weight">الوزن الحالي</string>
+    <string name="home_weekly_consistency">الالتزام الأسبوعي</string>
+    <string name="home_sessions_completed_ratio">%1$d/%2$d جلسات منجزة</string>
+    <string name="home_strength_index">مؤشر القوة</string>
+    <string name="home_strength_trend_subtitle">زيادة أحمال إيجابية</string>
+    <string name="home_streak">سلسلة الالتزام</string>
+    <string name="home_streak_subtitle">%d أسابيع مستمرة</string>
+    <string name="home_weekly_volume_card">حجم الأوزان التدريبي الأسبوعي</string>
+    <string name="home_view_analytics">عرض التحليلات ←</string>
+    <string name="home_recent_prs">الأرقام القياسية الأخيرة (PRs)</string>
+    <string name="home_estimated_1rm">الحد الأقصى التقديري (1RM): %d كجم</string>
+
+    <!-- Workout Screen -->
+    <string name="workout_title">جلسات التمرين</string>
+    <string name="workout_select_day">اختر يوم التمرين</string>
+    <string name="workout_day_prefix">اليوم %d</string>
+    <string name="workout_rest_badge">راحة</string>
+    <string name="workout_exercises_programmed">%d تمارين مبرمجة</string>
+    <string name="workout_start_session">ابدأ الجلسة ←</string>
+    <string name="workout_live_badge">تمرين مباشر</string>
+    <string name="workout_finish_btn">إنهاء التمرين</string>
+    <string name="workout_target_format">المستهدف: %1$d جولات × %2$d–%3$d تكرار • RIR: %4$d</string>
+    <string name="workout_previous_session">التمرين السابق:</string>
+    <string name="workout_first_time_hint">اختر وزناً مريحاً يتيح لك أداء الحركة بتحكم كامل.</string>
+    <string name="workout_add_set_btn">+ إضافة جولة</string>
+    <string name="workout_replace_dialog_title">استبدال التمرين</string>
+    <string name="workout_replace_dialog_subtitle">اختر تمريناً بديلاً</string>
+    <string name="workout_replace_notice">يظل السجل التدريبي متصلاً تلقائياً مع حسابات التطور والحمل التراكمي.</string>
+    <string name="workout_match_score">تطابق %d%%</string>
+    <string name="workout_notes_placeholder">ملاحظات التمرين، مستوى الجهد...</string>
+
+    <!-- Set Input Row -->
+    <string name="set_header_set">الجولة</string>
+    <string name="set_header_prev">السابق</string>
+    <string name="set_header_weight">كجم</string>
+    <string name="set_header_reps">تكرار</string>
+    <string name="set_header_rir">RIR</string>
+    <string name="set_first_time">أول مرة</string>
+    <string name="set_save_desc">حفظ الجولة</string>
+
+    <!-- Rest Timer -->
+    <string name="timer_title">فترة الراحة</string>
+    <string name="timer_add_30s">+30ث</string>
+    <string name="timer_pause">إيقاف مؤقت</string>
+    <string name="timer_resume">استئناف</string>
+    <string name="timer_skip">تخطي الراحة</string>
+
+    <!-- Recovery Check -->
+    <string name="recovery_title">فحص الاستشفاء قبل التمرين</string>
+    <string name="recovery_subtitle">كيف تشعر اليوم بدنياً وذهنياً؟</string>
+    <string name="recovery_notice">بيانات داعمة لتعديل مقترحات التطور الرياضي بذكاء.</string>
+    <string name="recovery_energy">مستوى الطاقة</string>
+    <string name="recovery_sleep">جودة النوم</string>
+    <string name="recovery_soreness">إجهاد وألم العضلات</string>
+    <string name="recovery_stress">مستوى الضغط والتوتر</string>
+    <string name="recovery_start_btn">ابدأ التمرين</string>
+    <string name="recovery_skip_btn">تخطي الفحص</string>
+
+    <!-- Progression Messages -->
+    <string name="progression_first_time">اختر وزناً مريحاً يتيح لك أداء الحركة بتحكم كامل.</string>
+    <string name="progression_increase">اقتراح التطور: فكر في زيادة بسيطة في الوزن (+%s كجم) للجلسة القادمة.</string>
+    <string name="progression_maintain">حافظ على الوزن الحالي وركز على التكنيك للوصول لـ %d تكرارات مع التحكم الكامل.</string>
+    <string name="progression_declining">الأداء في اتجاه تنازلي — راجع جودة الاستشفاء وساعات النوم والتغذية.</string>
+
+    <!-- Progress / Analytics -->
+    <string name="progress_title">تحليلات الأداء الرياضي</string>
+    <string name="progress_tab_weekly">التقرير الأسبوعي</string>
+    <string name="progress_tab_measurements">القياسات البدنية</string>
+    <string name="progress_tab_photos">سجل الصور</string>
+    <string name="progress_tab_cardio">تمارين الكارديو</string>
+    <string name="progress_weekly_report_title">تقرير الأداء الأسبوعي</string>
+    <string name="progress_consistency_pct">نسبة الالتزام الأسبوعي: %d%%</string>
+    <string name="progress_sessions_completed">الجلسات المنجزة</string>
+    <string name="progress_total_volume">حجم الأوزان التراكمي</string>
+    <string name="progress_new_prs">أرقام قياسية جديدة</string>
+    <string name="progress_muscle_distribution">توزيع حجم التمرين حسب المجموعة العضلية</string>
+    <string name="progress_trends_title">اتجاهات تطور التمارين</string>
+    <string name="progress_trend_improved">تطور مستمر ↑</string>
+    <string name="progress_trend_stable">ثبات في الأداء =</string>
+    <string name="progress_trend_declining">مراجعة الاستشفاء ↓</string>
+    <string name="progress_record_measurements_btn">+ تسجيل قياسات الجسم</string>
+    <string name="progress_record_photo_btn">+ إضافة صورة تقدم</string>
+    <string name="progress_record_cardio_btn">+ تسجيل جلسة كارديو</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_measurements_title">تسجيل قياسات الجسم</string>
+    <string name="dialog_body_weight_kg">وزن الجسم (كجم)</string>
+    <string name="dialog_waist_cm">محيط الخصر (سم)</string>
+    <string name="dialog_chest_cm">محيط الصدر (سم)</string>
+    <string name="dialog_arm_cm">محيط الذراع (سم)</string>
+    <string name="dialog_thigh_cm">محيط الفخذ (سم)</string>
+    <string name="dialog_notes">ملاحظات (اختياري)</string>
+    <string name="dialog_save">حفظ القياسات</string>
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="dialog_cardio_title">تسجيل جلسة كارديو</string>
+    <string name="dialog_cardio_type">نوع الكارديو</string>
+    <string name="dialog_duration_min">المدة (بالدقائق)</string>
+    <string name="dialog_distance_km">المسافة (كم) (اختياري)</string>
+    <string name="dialog_calories">السعرات المحروقة (اختياري)</string>
+    <string name="dialog_cardio_intensity">شدة التمرين</string>
+    <string name="dialog_photo_title">إضافة صورة تقدم</string>
+    <string name="dialog_photo_week">عنوان الأسبوع (مثال: الأسبوع 4)</string>
+    <string name="dialog_photo_pose">زاوية الصورة</string>
+    <string name="dialog_photo_path">مسار أو رابط الصورة</string>
+
+    <!-- Exercise Database & Details -->
+    <string name="exercises_title">قاعدة بيانات التمارين</string>
+    <string name="exercises_count_format">المكتبة (%d تمرين)</string>
+    <string name="exercises_search_hint">ابحث بالاسم، العضلة، المعدات...</string>
+    <string name="exercises_filter_all">الكل</string>
+    <string name="exercise_detail_also_known">معروف أيضاً باسم: %s</string>
+    <string name="exercise_detail_targets">المعايير المحددة</string>
+    <string name="exercise_detail_sets">الجولات</string>
+    <string name="exercise_detail_reps">التكرارات</string>
+    <string name="exercise_detail_rir">معدل الجهد RIR</string>
+    <string name="exercise_detail_rest">الراحة</string>
+    <string name="exercise_detail_anatomy">تشريح العضلة والحركة</string>
+    <string name="exercise_detail_primary_muscle">العضلة الأساسية</string>
+    <string name="exercise_detail_secondary_muscles">عضلات مساعدة</string>
+    <string name="exercise_detail_pattern">نمط الحركة</string>
+    <string name="exercise_detail_equipment">المعدات</string>
+    <string name="exercise_detail_difficulty">مستوى الصعوبة</string>
+    <string name="exercise_detail_type">نوع التمرين</string>
+    <string name="exercise_detail_steps_title">طريقة الأداء والخطوات</string>
+    <string name="exercise_step1_label">الإعداد والوضعية الصحيحة</string>
+    <string name="exercise_step2_label">الأداء والتحكم الحركي</string>
+    <string name="exercise_step3_label">طريقة التنفس الصحيحة</string>
+    <string name="exercise_common_mistakes">أخطاء شائعة يجب تجنبها</string>
+    <string name="exercise_coaching_cues">توجيهات فنية وتكنيك احترافي</string>
+    <string name="exercise_history_title">سجل الأداء الشخصي</string>
+    <string name="exercise_alternatives_title">تمارين بديلة متطابقة ميكانيكياً</string>
+    <string name="exercise_start_with_this">ابدأ التمرين بهذه الحركة</string>
+    <string name="exercise_favorite_desc">إضافة للمفضلة</string>
+    <string name="exercise_back_desc">رجوع</string>
+
+    <!-- Media Section -->
+    <string name="media_video_tab">فيديو</string>
+    <string name="media_gif_tab">حركة</string>
+    <string name="media_images_tab">صور (%d)</string>
+    <string name="media_video_badge">فيديو شرح التكنيك 4K</string>
+    <string name="media_gif_badge">حركة متكررة</string>
+    <string name="media_images_badge">معرض زوايا الأداء</string>
+    <string name="media_play">تشغيل</string>
+    <string name="media_pause">إيقاف مؤقت</string>
+    <string name="media_replay">إعادة التشغيل</string>
+    <string name="media_mute">كتم الصوت</string>
+    <string name="media_unmute">تشغيل الصوت</string>
+    <string name="media_fullscreen">ملء الشاشة</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_title">الملف الرياضي</string>
+    <string name="profile_specs_title">البيانات الجسدية والتدريبية</string>
+    <string name="profile_age_sex">العمر / الجنس</string>
+    <string name="profile_height_weight">الطول / الوزن</string>
+    <string name="profile_experience">مستوى الخبرة</string>
+    <string name="profile_goal">الهدف الأساسي</string>
+    <string name="profile_equipment">المعدات المتاحة</string>
+    <string name="profile_active_program">البرنامج التدريبي النشط</string>
+    <string name="profile_program_active_badge">البرنامج النشط</string>
+    <string name="profile_switch_program">تبديل</string>
+    <string name="profile_settings_title">إعدادات التطبيق</string>
+    <string name="profile_language_title">اللغة / Language</string>
+    <string name="profile_language_desc">التبديل بين العربية (RTL) والإنجليزية (LTR)</string>
+    <string name="profile_reset_app_title">إعادة ضبط التطبيق</string>
+    <string name="profile_reset_app_desc">حذف سجل التمارين والبيانات المحلية والبدء من جديد.</string>
+    <string name="profile_dev_tools_title">أدوات التطوير والإدارة</string>
+    <string name="profile_dev_reset_demo">إعادة تعيين بيانات العرض (تطوير)</string>
+    <string name="profile_dev_reset_demo_desc">توليد سجلات تدريبية وأرقام قياسية تجريبية للاختبار.</string>
+    <string name="profile_dev_admin_title">بوابة إدارة فور ماكس</string>
+    <string name="profile_dev_admin_desc">إدارة قاعدة التمارين الأساسية والوسائط والبرامج.</string>
+    <string name="profile_btn_enter_admin">فتح لوحة الإدارة</string>
+
+    <!-- Reset App Dialogs -->
+    <string name="reset_dialog_title">إعادة ضبط التطبيق</string>
+    <string name="reset_dialog_warning">سيؤدي هذا إلى حذف سجل التمارين، قياسات الجسم، صور التقدم، الأرقام القياسية، وبيانات ملفك الرياضي نهائياً.\n\nسيتم الحفاظ على التمارين الأساسية والبرامج.\n\nسيعود التطبيق إلى شاشة الإعداد الأولى.</string>
+    <string name="reset_dialog_confirm_btn">إعادة ضبط كل شيء</string>
+    <string name="reset_confirm2_title">تأكيد نهائي لإعادة الضبط</string>
+    <string name="reset_confirm2_msg">هل أنت متأكد تماماً؟ سيتم حذف كافة جلساتك وسجلاتك المحلية ولا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="reset_confirm2_btn">نعم، حذف وإعادة ضبط</string>
+
+    <!-- Demo Reset Dialog -->
+    <string name="demo_reset_title">إعادة تعيين بيانات العرض</string>
+    <string name="demo_reset_msg">سيؤدي هذا إلى توليد جلسات تمرين، جولات، قياسات جسم، وأرقام قياسية تجريبية لأغراض اختبار وتطوير التطبيق.</string>
+    <string name="demo_reset_btn">توليد البيانات التجريبية</string>
+
+    <!-- Admin Authentication Dialog -->
+    <string name="admin_auth_title">دخول الإدارة والتطوير</string>
+    <string name="admin_auth_msg">يعمل هذا التطبيق في وضع التطوير. تتيح هذه اللوحة صلاحيات إدارة المحتوى لإنشاء وتعديل ونشر وتكرار التمارين وملفات الوسائط.</string>
+    <string name="admin_auth_confirm">الدخول للوحة الإدارة</string>
+
+    <!-- Admin Panel -->
+    <string name="admin_top_title">إدارة فور ماكس FOR MAX</string>
+    <string name="admin_top_subtitle">نظام إدارة المحتوى والتمارين</string>
+    <string name="admin_tab_dashboard">لوحة التحكم</string>
+    <string name="admin_tab_exercises">التمارين (%d)</string>
+    <string name="admin_tab_media">الوسائط (%d)</string>
+    <string name="admin_tab_quality">فاحص الجودة</string>
+    <string name="admin_tab_analytics">التحليلات</string>
+    <string name="admin_create_exercise">+ تمرين جديد</string>
+    <string name="admin_duplicate">نسخ</string>
+    <string name="admin_publish">نشر</string>
+    <string name="admin_unpublish">إلغاء النشر</string>
+    <string name="admin_archive">أرشفة</string>
+    <string name="admin_restore">استعادة</string>
+    <string name="admin_delete">حذف</string>
+    <string name="admin_status_draft">مسودة</string>
+    <string name="admin_status_published">منشور</string>
+    <string name="admin_status_archived">مؤرشف</string>
+</resources>

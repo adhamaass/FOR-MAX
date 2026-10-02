@@ -1,0 +1,268 @@
+<resources>
+    <string name="app_name">FOR MAX</string>
+    <string name="app_tagline">Train smarter. Track everything. Become stronger.</string>
+
+    <!-- Navigation Tabs -->
+    <string name="nav_home">Home</string>
+    <string name="nav_workout">Workout</string>
+    <string name="nav_progress">Progress</string>
+    <string name="nav_exercises">Exercises</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_hero_title">FOR MAX</string>
+    <string name="onboarding_hero_subtitle">Build your best physique.</string>
+    <string name="onboarding_btn_get_started">GET STARTED</string>
+    <string name="onboarding_hero_feature1">Deterministic volume &amp; overload logic</string>
+    <string name="onboarding_hero_feature2">Complete video, GIF &amp; photo coaching</string>
+    <string name="onboarding_hero_feature3">100% offline local Room database</string>
+    <string name="onboarding_step1_badge">FOR MAX: BIOMETRIC PROFILE</string>
+    <string name="onboarding_step1_title">Athlete Profile</string>
+    <string name="onboarding_step1_progress">Step 1 of 2</string>
+    <string name="onboarding_biometrics_section">Physical Biometrics</string>
+    <string name="onboarding_name_label">Name or Nickname</string>
+    <string name="onboarding_age_label">Age</string>
+    <string name="onboarding_height_label">Height (cm)</string>
+    <string name="onboarding_weight_label">Weight (kg)</string>
+    <string name="onboarding_sex_label">Biological Sex</string>
+    <string name="onboarding_sex_male">Male</string>
+    <string name="onboarding_sex_female">Female</string>
+    <string name="onboarding_sex_other">Other</string>
+    <string name="onboarding_experience_label">Training Experience</string>
+    <string name="onboarding_experience_beginner">Beginner</string>
+    <string name="onboarding_experience_intermediate">Intermediate</string>
+    <string name="onboarding_experience_advanced">Advanced</string>
+    <string name="onboarding_goal_label">Main Goal</string>
+    <string name="onboarding_equipment_label">Available Equipment</string>
+    <string name="onboarding_days_label">Training Frequency per Week</string>
+    <string name="onboarding_days_unit">days / week</string>
+    <string name="onboarding_btn_generate">RECOMMEND TRAINING SYSTEM →</string>
+    <string name="onboarding_step2_badge">STEP 2: SYSTEM RECOMMENDATION</string>
+    <string name="onboarding_step2_title">Recommended Training System</string>
+    <string name="onboarding_recommended_banner">RECOMMENDED FOR YOU</string>
+    <string name="onboarding_volume_baseline">Hypertrophy Baseline: ~10-12 weekly hard sets per major muscle group.</string>
+    <string name="onboarding_all_systems_title">All Available Training Systems</string>
+    <string name="onboarding_btn_finish">START TRAINING WITH THIS SYSTEM</string>
+
+    <!-- Home / Dashboard -->
+    <string name="greeting_morning">Good Morning</string>
+    <string name="greeting_afternoon">Good Afternoon</string>
+    <string name="greeting_evening">Good Evening</string>
+    <string name="home_goal_label">Goal: %s</string>
+    <string name="home_active_session_badge">Session In Progress</string>
+    <string name="home_active_sets_logged">%d sets logged</string>
+    <string name="home_resume_workout_btn">Resume Workout</string>
+    <string name="home_today_scheduled">Today\'s Scheduled Workout</string>
+    <string name="home_exercises_count">%d exercises</string>
+    <string name="home_start_workout_btn">Start Workout</string>
+    <string name="home_rest_day_title">Rest Day</string>
+    <string name="home_rest_day_desc">Scheduled rest day. Hydrate, stretch, and prioritize sleep for recovery.</string>
+    <string name="home_current_weight">Current Weight</string>
+    <string name="home_weekly_consistency">Weekly Consistency</string>
+    <string name="home_sessions_completed_ratio">%1$d/%2$d sessions done</string>
+    <string name="home_strength_index">Strength Trend</string>
+    <string name="home_strength_trend_subtitle">Positive Progressive Overload</string>
+    <string name="home_streak">Workout Streak</string>
+    <string name="home_streak_subtitle">%d weeks ongoing</string>
+    <string name="home_weekly_volume_card">Weekly Training Volume</string>
+    <string name="home_view_analytics">View Analytics →</string>
+    <string name="home_recent_prs">Recent Personal Records (PRs)</string>
+    <string name="home_estimated_1rm">Estimated 1RM: %d kg</string>
+
+    <!-- Workout Screen -->
+    <string name="workout_title">Workout Sessions</string>
+    <string name="workout_select_day">Select Training Day</string>
+    <string name="workout_day_prefix">Day %d</string>
+    <string name="workout_rest_badge">Rest</string>
+    <string name="workout_exercises_programmed">%d exercises programmed</string>
+    <string name="workout_start_session">Start Session →</string>
+    <string name="workout_live_badge">Live Workout</string>
+    <string name="workout_finish_btn">Finish Workout</string>
+    <string name="workout_target_format">Target: %1$d sets × %2$d–%3$d reps • RIR: %4$d</string>
+    <string name="workout_previous_session">Previous session:</string>
+    <string name="workout_first_time_hint">Choose a comfortable weight with complete movement control.</string>
+    <string name="workout_add_set_btn">+ Add Set</string>
+    <string name="workout_replace_dialog_title">Replace Exercise</string>
+    <string name="workout_replace_dialog_subtitle">Choose an Alternative</string>
+    <string name="workout_replace_notice">Workout history remains automatically connected for progressive overload calculations.</string>
+    <string name="workout_match_score">Match %d%%</string>
+    <string name="workout_notes_placeholder">Workout notes, feel, energy...</string>
+
+    <!-- Set Input Row -->
+    <string name="set_header_set">Set</string>
+    <string name="set_header_prev">Previous</string>
+    <string name="set_header_weight">kg</string>
+    <string name="set_header_reps">Reps</string>
+    <string name="set_header_rir">RIR</string>
+    <string name="set_first_time">First time</string>
+    <string name="set_save_desc">Save Set</string>
+
+    <!-- Rest Timer -->
+    <string name="timer_title">Rest Timer</string>
+    <string name="timer_add_30s">+30s</string>
+    <string name="timer_pause">Pause</string>
+    <string name="timer_resume">Resume</string>
+    <string name="timer_skip">Skip Rest</string>
+
+    <!-- Recovery Check -->
+    <string name="recovery_title">Pre-Workout Recovery Check</string>
+    <string name="recovery_subtitle">How are you feeling physically and mentally today?</string>
+    <string name="recovery_notice">Inputs intelligently adjust progression suggestions.</string>
+    <string name="recovery_energy">Energy Level</string>
+    <string name="recovery_sleep">Sleep Quality</string>
+    <string name="recovery_soreness">Muscle Soreness</string>
+    <string name="recovery_stress">Stress Level</string>
+    <string name="recovery_start_btn">Start Workout</string>
+    <string name="recovery_skip_btn">Skip Check</string>
+
+    <!-- Progression Messages -->
+    <string name="progression_first_time">Choose a comfortable weight that allows full movement control.</string>
+    <string name="progression_increase">Progression Suggestion: Consider a small weight increase (+%s kg) for the next session.</string>
+    <string name="progression_maintain">Keep current weight and focus on hitting %d reps with strict form.</string>
+    <string name="progression_declining">Performance is declining — review recovery, sleep, and nutrition.</string>
+
+    <!-- Progress / Analytics -->
+    <string name="progress_title">Performance Analytics</string>
+    <string name="progress_tab_weekly">Weekly Progress</string>
+    <string name="progress_tab_measurements">Measurements</string>
+    <string name="progress_tab_photos">Photos</string>
+    <string name="progress_tab_cardio">Cardio</string>
+    <string name="progress_weekly_report_title">Weekly Performance Report</string>
+    <string name="progress_consistency_pct">Weekly Consistency: %d%%</string>
+    <string name="progress_sessions_completed">Sessions Completed</string>
+    <string name="progress_total_volume">Cumulative Volume</string>
+    <string name="progress_new_prs">New Personal Records</string>
+    <string name="progress_muscle_distribution">Volume Distribution by Muscle Group</string>
+    <string name="progress_trends_title">Exercise Development Trends</string>
+    <string name="progress_trend_improved">Continuous Improvement ↑</string>
+    <string name="progress_trend_stable">Stable Performance =</string>
+    <string name="progress_trend_declining">Review Recovery ↓</string>
+    <string name="progress_record_measurements_btn">+ Record Body Measurements</string>
+    <string name="progress_record_photo_btn">+ Add Progress Photo</string>
+    <string name="progress_record_cardio_btn">+ Log Cardio Session</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_measurements_title">Record Body Measurements</string>
+    <string name="dialog_body_weight_kg">Body Weight (kg)</string>
+    <string name="dialog_waist_cm">Waist Circumference (cm)</string>
+    <string name="dialog_chest_cm">Chest Circumference (cm)</string>
+    <string name="dialog_arm_cm">Arm Circumference (cm)</string>
+    <string name="dialog_thigh_cm">Thigh Circumference (cm)</string>
+    <string name="dialog_notes">Notes (optional)</string>
+    <string name="dialog_save">Save Record</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_cardio_title">Log Cardio Session</string>
+    <string name="dialog_cardio_type">Cardio Type</string>
+    <string name="dialog_duration_min">Duration (minutes)</string>
+    <string name="dialog_distance_km">Distance (km) (optional)</string>
+    <string name="dialog_calories">Calories Burned (optional)</string>
+    <string name="dialog_cardio_intensity">Intensity</string>
+    <string name="dialog_photo_title">Add Progress Photo</string>
+    <string name="dialog_photo_week">Week Label (e.g., Week 4)</string>
+    <string name="dialog_photo_pose">Photo Pose</string>
+    <string name="dialog_photo_path">Image Path / URI</string>
+
+    <!-- Exercise Database & Details -->
+    <string name="exercises_title">Exercise Database</string>
+    <string name="exercises_count_format">Library (%d exercises)</string>
+    <string name="exercises_search_hint">Search by name, muscle, equipment...</string>
+    <string name="exercises_filter_all">All</string>
+    <string name="exercise_detail_also_known">Also known as: %s</string>
+    <string name="exercise_detail_targets">Target Parameters</string>
+    <string name="exercise_detail_sets">Sets</string>
+    <string name="exercise_detail_reps">Reps</string>
+    <string name="exercise_detail_rir">RIR Target</string>
+    <string name="exercise_detail_rest">Rest</string>
+    <string name="exercise_detail_anatomy">Muscular Anatomy &amp; Motion</string>
+    <string name="exercise_detail_primary_muscle">Primary Muscle</string>
+    <string name="exercise_detail_secondary_muscles">Secondary Muscles</string>
+    <string name="exercise_detail_pattern">Movement Pattern</string>
+    <string name="exercise_detail_equipment">Equipment</string>
+    <string name="exercise_detail_difficulty">Difficulty</string>
+    <string name="exercise_detail_type">Exercise Type</string>
+    <string name="exercise_detail_steps_title">Performance &amp; Biomechanics Guide</string>
+    <string name="exercise_step1_label">Setup &amp; Posture</string>
+    <string name="exercise_step2_label">Execution &amp; Movement Control</string>
+    <string name="exercise_step3_label">Proper Breathing Technique</string>
+    <string name="exercise_common_mistakes">Common Mistakes to Avoid</string>
+    <string name="exercise_coaching_cues">Professional Coaching Cues</string>
+    <string name="exercise_history_title">Personal Performance History</string>
+    <string name="exercise_alternatives_title">Biomechanically Similar Alternatives</string>
+    <string name="exercise_start_with_this">Start Workout with this Exercise</string>
+    <string name="exercise_favorite_desc">Toggle Favorite</string>
+    <string name="exercise_back_desc">Back</string>
+
+    <!-- Media Section -->
+    <string name="media_video_tab">Video</string>
+    <string name="media_gif_tab">Loop</string>
+    <string name="media_images_tab">Images (%d)</string>
+    <string name="media_video_badge">Technique Video 4K</string>
+    <string name="media_gif_badge">Looping Motion</string>
+    <string name="media_images_badge">Performance Angles</string>
+    <string name="media_play">Play</string>
+    <string name="media_pause">Pause</string>
+    <string name="media_replay">Replay</string>
+    <string name="media_mute">Mute</string>
+    <string name="media_unmute">Unmute</string>
+    <string name="media_fullscreen">Fullscreen</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_title">Athlete Profile</string>
+    <string name="profile_specs_title">Physical &amp; Training Specs</string>
+    <string name="profile_age_sex">Age / Sex</string>
+    <string name="profile_height_weight">Height / Weight</string>
+    <string name="profile_experience">Experience Level</string>
+    <string name="profile_goal">Main Goal</string>
+    <string name="profile_equipment">Available Equipment</string>
+    <string name="profile_active_program">Active Training Program</string>
+    <string name="profile_program_active_badge">Active Program</string>
+    <string name="profile_switch_program">Switch</string>
+    <string name="profile_settings_title">Application Settings</string>
+    <string name="profile_language_title">Language / اللغة</string>
+    <string name="profile_language_desc">Switch between English and العربية (Arabic RTL)</string>
+    <string name="profile_reset_app_title">Reset App</string>
+    <string name="profile_reset_app_desc">Delete local history and restart onboarding fresh.</string>
+    <string name="profile_dev_tools_title">Development &amp; Admin Tools</string>
+    <string name="profile_dev_reset_demo">Reset Demo Data</string>
+    <string name="profile_dev_reset_demo_desc">Generate sample workout history and records for testing.</string>
+    <string name="profile_dev_admin_title">Development Admin Access</string>
+    <string name="profile_dev_admin_desc">Manage master exercises, media, and programs.</string>
+    <string name="profile_btn_enter_admin">Open Admin Panel</string>
+
+    <!-- Reset App Dialogs -->
+    <string name="reset_dialog_title">Reset App</string>
+    <string name="reset_dialog_warning">This will permanently delete your local workout history, body measurements, progress photos, personal records, and profile data.\n\nMaster exercise catalog and programs will be preserved.\n\nThe app will restart to first-launch onboarding.</string>
+    <string name="reset_dialog_confirm_btn">Reset Everything</string>
+    <string name="reset_confirm2_title">Final Confirmation</string>
+    <string name="reset_confirm2_msg">Are you absolutely certain? This will delete all your local training sessions and cannot be undone.</string>
+    <string name="reset_confirm2_btn">Yes, Delete &amp; Reset</string>
+
+    <!-- Demo Reset Dialog -->
+    <string name="demo_reset_title">Reset Demo Data</string>
+    <string name="demo_reset_msg">This will populate sample workouts, sets, measurements, and personal records for development testing.</string>
+    <string name="demo_reset_btn">Populate Demo Data</string>
+
+    <!-- Admin Authentication Dialog -->
+    <string name="admin_auth_title">Development Admin Access</string>
+    <string name="admin_auth_msg">This application is running in Development Mode. This tool gives content management privileges to create, edit, duplicate, and publish exercises and media.</string>
+    <string name="admin_auth_confirm">Enter Admin Panel</string>
+
+    <!-- Admin Panel -->
+    <string name="admin_top_title">FOR MAX ADMIN</string>
+    <string name="admin_top_subtitle">Content Management System</string>
+    <string name="admin_tab_dashboard">Dashboard</string>
+    <string name="admin_tab_exercises">Exercises (%d)</string>
+    <string name="admin_tab_media">Media (%d)</string>
+    <string name="admin_tab_quality">Quality Checker</string>
+    <string name="admin_tab_analytics">Analytics</string>
+    <string name="admin_create_exercise">+ New Exercise</string>
+    <string name="admin_duplicate">Duplicate</string>
+    <string name="admin_publish">Publish</string>
+    <string name="admin_unpublish">Unpublish</string>
+    <string name="admin_archive">Archive</string>
+    <string name="admin_restore">Restore</string>
+    <string name="admin_delete">Delete</string>
+    <string name="admin_status_draft">DRAFT</string>
+    <string name="admin_status_published">PUBLISHED</string>
+    <string name="admin_status_archived">ARCHIVED</string>
+</resources>
