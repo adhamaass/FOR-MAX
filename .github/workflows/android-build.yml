@@ -50,11 +50,10 @@ jobs:
           ls -la "$ANDROID_SDK_ROOT/platforms/android-36"
           ls -la "$ANDROID_SDK_ROOT/build-tools/36.0.0"
 
-      - name: Set up Gradle 9.1.1
+      - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: "9.1.1"
-          cache-read-only: false
+        cache-read-only: false
 
       - name: Run unit and JVM tests
         run: gradle testDebugUnitTest --stacktrace
